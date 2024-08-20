@@ -1,12 +1,12 @@
-# Тестовое задание Кочев Д.А.
+# Simple JWT-Auth
 
-## Запуск
-1. Клонировать репозиторий
+## How to start
+1. Clone repository
   ```
   git clone https://github.com/PachiSenkan/test_auth.git
   ```
-3. Перейти в папку test_auth
-4. Создать виртуальное окружение
+3. Go to /test_auth
+4. Create virtual environment
 **Windows:**
   ```
   python -m venv venv
@@ -17,7 +17,7 @@
   python3 -m venv venv
   source venv/bin/sctivate
   ```
-5. Установить зависимости
+5. Install dependencies
 **Windows:**
   ```
   python -m pip install -r requirements.txt
@@ -26,8 +26,8 @@
   ```
   python3 -m pip install -r requirements.txt
   ```
-6. Запустить сервер
+6. Start server
   ```
   uvicorn app.main:app --reload
   ```
-После запуска эндпоинты доступны по адресу `127.0.0.1:8000/api/v1/` или через Swagger `127.0.0.1:8000/docs/`
+API is available from `127.0.0.1:8000/api/v1/` or from OpenAPI docs `127.0.0.1:8000/docs/`
