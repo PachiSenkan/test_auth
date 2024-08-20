@@ -20,11 +20,11 @@
 5. Установить зависимости
 **Windows:**
   ```
-  python -m pip -r requirements.txt
+  python -m pip install -r requirements.txt
   ```
 **Linux:**
   ```
-  python3 -m pip -r requirements.txt
+  python3 -m pip install -r requirements.txt
   ```
 6. Запустить сервер
   ```
